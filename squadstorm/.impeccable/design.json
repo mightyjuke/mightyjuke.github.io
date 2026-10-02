@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T00:15:18.051184+00:00",
+  "title": "Design System: Squadstorm public website",
+  "extensions": {
+    "colorMeta": {
+      "navy-arena": {
+        "role": "neutral",
+        "displayName": "Navy arena",
+        "tonalRamp": [
+          "oklch(15% 0.0535 253.50)",
+          "oklch(26% 0.0535 253.50)",
+          "oklch(38% 0.0535 253.50)",
+          "oklch(49% 0.0535 253.50)",
+          "oklch(61% 0.0535 253.50)",
+          "oklch(72% 0.0535 253.50)",
+          "oklch(84% 0.0535 253.50)",
+          "oklch(95% 0.0535 253.50)"
+        ]
+      },
+      "pale-text": {
+        "role": "neutral",
+        "displayName": "Pale text",
+        "tonalRamp": [
+          "oklch(15% 0.0103 261.79)",
+          "oklch(26% 0.0103 261.79)",
+          "oklch(38% 0.0103 261.79)",
+          "oklch(49% 0.0103 261.79)",
+          "oklch(61% 0.0103 261.79)",
+          "oklch(72% 0.0103 261.79)",
+          "oklch(84% 0.0103 261.79)",
+          "oklch(95% 0.0103 261.79)"
+        ]
+      },
+      "muted-text": {
+        "role": "neutral",
+        "displayName": "Muted text",
+        "tonalRamp": [
+          "oklch(15% 0.0314 245.17)",
+          "oklch(26% 0.0314 245.17)",
+          "oklch(38% 0.0314 245.17)",
+          "oklch(49% 0.0314 245.17)",
+          "oklch(61% 0.0314 245.17)",
+          "oklch(72% 0.0314 245.17)",
+          "oklch(84% 0.0314 245.17)",
+          "oklch(95% 0.0314 245.17)"
+        ]
+      },
+      "divider": {
+        "role": "neutral",
+        "displayName": "Divider",
+        "tonalRamp": [
+          "oklch(15% 0.0552 244.52)",
+          "oklch(26% 0.0552 244.52)",
+          "oklch(38% 0.0552 244.52)",
+          "oklch(49% 0.0552 244.52)",
+          "oklch(61% 0.0552 244.52)",
+          "oklch(72% 0.0552 244.52)",
+          "oklch(84% 0.0552 244.52)",
+          "oklch(95% 0.0552 244.52)"
+        ]
+      },
+      "action-orange": {
+        "role": "primary",
+        "displayName": "Action orange",
+        "tonalRamp": [
+          "oklch(15% 0.1341 61.51)",
+          "oklch(26% 0.1341 61.51)",
+          "oklch(38% 0.1341 61.51)",
+          "oklch(49% 0.1341 61.51)",
+          "oklch(61% 0.1341 61.51)",
+          "oklch(72% 0.1341 61.51)",
+          "oklch(84% 0.1341 61.51)",
+          "oklch(95% 0.1341 61.51)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action hover",
+        "tonalRamp": [
+          "oklch(15% 0.0978 62.93)",
+          "oklch(26% 0.0978 62.93)",
+          "oklch(38% 0.0978 62.93)",
+          "oklch(49% 0.0978 62.93)",
+          "oklch(61% 0.0978 62.93)",
+          "oklch(72% 0.0978 62.93)",
+          "oklch(84% 0.0978 62.93)",
+          "oklch(95% 0.0978 62.93)"
+        ]
+      },
+      "action-ink": {
+        "role": "neutral",
+        "displayName": "Action ink",
+        "tonalRamp": [
+          "oklch(15% 0.0439 256.04)",
+          "oklch(26% 0.0439 256.04)",
+          "oklch(38% 0.0439 256.04)",
+          "oklch(49% 0.0439 256.04)",
+          "oklch(61% 0.0439 256.04)",
+          "oklch(72% 0.0439 256.04)",
+          "oklch(84% 0.0439 256.04)",
+          "oklch(95% 0.0439 256.04)"
+        ]
+      },
+      "panel-navy": {
+        "role": "neutral",
+        "displayName": "Panel navy",
+        "tonalRamp": [
+          "oklch(15% 0.0611 249.49)",
+          "oklch(26% 0.0611 249.49)",
+          "oklch(38% 0.0611 249.49)",
+          "oklch(49% 0.0611 249.49)",
+          "oklch(61% 0.0611 249.49)",
+          "oklch(72% 0.0611 249.49)",
+          "oklch(84% 0.0611 249.49)",
+          "oklch(95% 0.0611 249.49)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Landing headline; responsive overrides are documented in DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Landing section headings."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Gameplay captions."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Explanatory copy and privacy paragraphs."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Introduction and offline explanation."
+      },
+      "button-label": {
+        "displayName": "Button label",
+        "purpose": "Primary link controls."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "button-hover",
+        "value": "background .15s ease",
+        "purpose": "Primary action hover; removed for reduced motion."
+      },
+      {
+        "name": "scroll",
+        "value": "smooth",
+        "purpose": "Anchor navigation; changes to auto for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "800px"
+      },
+      {
+        "name": "mobile",
+        "value": "600px"
+      },
+      {
+        "name": "narrow",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Orange link control for gameplay and support.",
+      "html": "<a class=\"ds-button\" href=\"#gameplay\">Explore the gameplay</a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:13px 24px;background:var(--accent,#ffac60);color:var(--ink,#101f33);border-radius:12px;font-weight:650;font-size:17px;line-height:1.65;text-decoration:none;transition:background .15s ease;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;}.ds-button:hover{background:#ffc38d;color:var(--ink,#101f33)}.ds-button:focus-visible{outline:3px solid var(--accent,#ffac60);outline-offset:6px;}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Policy link",
+      "kind": "custom",
+      "refersTo": "inline-link",
+      "description": "Underlined orange link within reading content.",
+      "html": "<a class=\"ds-link\" href=\"privacy.html\">Read the privacy policy</a>",
+      "css": ".ds-link{color:var(--accent,#ffac60);font-size:17px;line-height:1.65;text-underline-offset:5px;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;}.ds-link:hover{color:var(--accent,#ffac60)}.ds-link:focus-visible{outline:3px solid var(--accent,#ffac60);outline-offset:6px;}"
+    },
+    {
+      "name": "Main navigation",
+      "kind": "nav",
+      "description": "Compact header links with the implemented mobile treatment.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#gameplay\">Gameplay</a><a href=\"#support\">Support</a><a href=\"privacy.html\">Privacy</a></nav>",
+      "css": ".ds-nav{display:flex;gap:28px;flex-wrap:wrap;background:var(--bg,#0b2038);color:var(--text,#f4f8ff);font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;}.ds-nav a{font-size:15px;line-height:1.65;text-decoration:none;color:inherit;padding-block:10px}.ds-nav a:hover{color:var(--accent,#ffac60)}.ds-nav a:focus-visible{outline:3px solid var(--accent,#ffac60);outline-offset:6px;}@media(max-width:600px){.ds-nav{gap:16px}.ds-nav a{font-size:14px}.ds-nav a[href=\"#gameplay\"]{display:none}}"
+    },
+    {
+      "name": "Gameplay caption",
+      "kind": "custom",
+      "description": "Open caption attached to a real portrait gameplay image.",
+      "html": "<figcaption class=\"ds-caption\"><h3>Choose your gates</h3><p>Shoot blue gates to raise their numbers before you run through. Steer clear of the red skull gates.</p></figcaption>",
+      "css": ".ds-caption{background:var(--bg,#0b2038);padding-top:24px;max-width:340px}.ds-caption h3{margin:0;color:var(--text,#f4f8ff);font-family:Barlow Condensed,system-ui,sans-serif;font-weight:700;font-size:30px;line-height:1.15}.ds-caption p{margin:12px 0 0;color:var(--muted,#bdd0e1);font-size:16px;line-height:1.65;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;}@media(max-width:600px){.ds-caption{padding-top:0}.ds-caption h3{font-size:27px}.ds-caption p{font-size:15px;line-height:1.55}}"
+    },
+    {
+      "name": "Privacy section",
+      "kind": "custom",
+      "description": "Readable policy heading and paragraph using the shared identity.",
+      "html": "<section class=\"ds-policy\"><h2>Game data</h2><p>Progress, settings, coins, and records stay in the app\u2019s private storage. No game account is required.</p></section>",
+      "css": ".ds-policy{background:var(--bg,#0b2038);color:var(--text,#f4f8ff);font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",sans-serif;}.ds-policy h2{margin:34px 0 12px;font-family:Barlow Condensed,system-ui,sans-serif;font-weight:700;font-size:29px;line-height:1.08}.ds-policy p{margin:0;max-width:68ch;font-size:17px;line-height:1.65}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Squadstorm's navy arena",
+    "overview": "Squadstorm's navy arena carries through to the website: pale readable text, orange actions, condensed bold headings, and real game imagery. The landing page uses open sections and generous gaps; the privacy page uses the same identity in a narrower reading column.",
+    "keyCharacteristics": [
+      "Real campaign artwork and gameplay captures.",
+      "Navy surfaces, orange actions, and pale text.",
+      "Bold condensed headings with system body text.",
+      "Open sections and restrained interaction."
+    ],
+    "rules": [],
+    "dos": [
+      "Do use the existing campaign artwork and actual gameplay captures.",
+      "Do keep headings in Barlow Condensed and explanatory text in the system stack.",
+      "Do preserve visible orange keyboard focus and reduced-motion support.",
+      "Do keep privacy text in the narrower reading column."
+    ],
+    "donts": [
+      "Don't add shadows, floating cards, or decorative gradients to this documented page system.",
+      "Don't crop gameplay captures into decorative tiles; retain their portrait proportions.",
+      "Don't introduce new fonts or accent colors without revisiting the brand commitments."
+    ]
+  }
+}
