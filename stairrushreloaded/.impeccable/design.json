@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-25T09:15:48.196000+00:00",
+  "title": "Design System: Stairs Rush Reloaded",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "neutral",
+        "displayName": "Midnight Violet",
+        "tonalRamp": [
+          "oklch(15.0% 0.0479 286.2)",
+          "oklch(26.4% 0.0479 286.2)",
+          "oklch(37.9% 0.0479 286.2)",
+          "oklch(49.3% 0.0479 286.2)",
+          "oklch(60.7% 0.0479 286.2)",
+          "oklch(72.1% 0.0479 286.2)",
+          "oklch(83.6% 0.0479 286.2)",
+          "oklch(95.0% 0.0479 286.2)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Deep Violet",
+        "tonalRamp": [
+          "oklch(15.0% 0.0602 287.7)",
+          "oklch(26.4% 0.0602 287.7)",
+          "oklch(37.9% 0.0602 287.7)",
+          "oklch(49.3% 0.0602 287.7)",
+          "oklch(60.7% 0.0602 287.7)",
+          "oklch(72.1% 0.0602 287.7)",
+          "oklch(83.6% 0.0602 287.7)",
+          "oklch(95.0% 0.0602 287.7)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Pearl",
+        "tonalRamp": [
+          "oklch(15.0% 0.0225 332.3)",
+          "oklch(26.4% 0.0225 332.3)",
+          "oklch(37.9% 0.0225 332.3)",
+          "oklch(49.3% 0.0225 332.3)",
+          "oklch(60.7% 0.0225 332.3)",
+          "oklch(72.1% 0.0225 332.3)",
+          "oklch(83.6% 0.0225 332.3)",
+          "oklch(95.0% 0.0225 332.3)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Lavender Text",
+        "tonalRamp": [
+          "oklch(15.0% 0.0499 305.3)",
+          "oklch(26.4% 0.0499 305.3)",
+          "oklch(37.9% 0.0499 305.3)",
+          "oklch(49.3% 0.0499 305.3)",
+          "oklch(60.7% 0.0499 305.3)",
+          "oklch(72.1% 0.0499 305.3)",
+          "oklch(83.6% 0.0499 305.3)",
+          "oklch(95.0% 0.0499 305.3)"
+        ]
+      },
+      "pink": {
+        "role": "primary",
+        "displayName": "Action Pink",
+        "tonalRamp": [
+          "oklch(15.0% 0.1673 346.2)",
+          "oklch(26.4% 0.1673 346.2)",
+          "oklch(37.9% 0.1673 346.2)",
+          "oklch(49.3% 0.1673 346.2)",
+          "oklch(60.7% 0.1673 346.2)",
+          "oklch(72.1% 0.1673 346.2)",
+          "oklch(83.6% 0.1673 346.2)",
+          "oklch(95.0% 0.1673 346.2)"
+        ]
+      },
+      "cyan": {
+        "role": "secondary",
+        "displayName": "Signal Cyan",
+        "tonalRamp": [
+          "oklch(15.0% 0.1056 199.2)",
+          "oklch(26.4% 0.1056 199.2)",
+          "oklch(37.9% 0.1056 199.2)",
+          "oklch(49.3% 0.1056 199.2)",
+          "oklch(60.7% 0.1056 199.2)",
+          "oklch(72.1% 0.1056 199.2)",
+          "oklch(83.6% 0.1056 199.2)",
+          "oklch(95.0% 0.1056 199.2)"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Violet Divider",
+        "tonalRamp": [
+          "oklch(15.0% 0.0684 300.5)",
+          "oklch(26.4% 0.0684 300.5)",
+          "oklch(37.9% 0.0684 300.5)",
+          "oklch(49.3% 0.0684 300.5)",
+          "oklch(60.7% 0.0684 300.5)",
+          "oklch(72.1% 0.0684 300.5)",
+          "oklch(83.6% 0.0684 300.5)",
+          "oklch(95.0% 0.0684 300.5)"
+        ]
+      },
+      "pink-hover": {
+        "role": "primary",
+        "displayName": "Light Action Pink",
+        "tonalRamp": [
+          "oklch(15.0% 0.1055 343.7)",
+          "oklch(26.4% 0.1055 343.7)",
+          "oklch(37.9% 0.1055 343.7)",
+          "oklch(49.3% 0.1055 343.7)",
+          "oklch(60.7% 0.1055 343.7)",
+          "oklch(72.1% 0.1055 343.7)",
+          "oklch(83.6% 0.1055 343.7)",
+          "oklch(95.0% 0.1055 343.7)"
+        ]
+      },
+      "tab-hover": {
+        "role": "neutral",
+        "displayName": "Violet Tab Hover",
+        "tonalRamp": [
+          "oklch(15.0% 0.0706 290.1)",
+          "oklch(26.4% 0.0706 290.1)",
+          "oklch(37.9% 0.0706 290.1)",
+          "oklch(49.3% 0.0706 290.1)",
+          "oklch(60.7% 0.0706 290.1)",
+          "oklch(72.1% 0.0706 290.1)",
+          "oklch(83.6% 0.0706 290.1)",
+          "oklch(95.0% 0.0706 290.1)"
+        ]
+      },
+      "download": {
+        "role": "neutral",
+        "displayName": "Warm Violet",
+        "tonalRamp": [
+          "oklch(15.0% 0.0557 308.6)",
+          "oklch(26.4% 0.0557 308.6)",
+          "oklch(37.9% 0.0557 308.6)",
+          "oklch(49.3% 0.0557 308.6)",
+          "oklch(60.7% 0.0557 308.6)",
+          "oklch(72.1% 0.0557 308.6)",
+          "oklch(83.6% 0.0557 308.6)",
+          "oklch(95.0% 0.0557 308.6)"
+        ]
+      },
+      "metal": {
+        "role": "tertiary",
+        "displayName": "Metal Lavender",
+        "tonalRamp": [
+          "oklch(15.0% 0.0999 295.1)",
+          "oklch(26.4% 0.0999 295.1)",
+          "oklch(37.9% 0.0999 295.1)",
+          "oklch(49.3% 0.0999 295.1)",
+          "oklch(60.7% 0.0999 295.1)",
+          "oklch(72.1% 0.0999 295.1)",
+          "oklch(83.6% 0.0999 295.1)",
+          "oklch(95.0% 0.0999 295.1)"
+        ]
+      },
+      "wood": {
+        "role": "tertiary",
+        "displayName": "Wood Green",
+        "tonalRamp": [
+          "oklch(15.0% 0.1136 154.8)",
+          "oklch(26.4% 0.1136 154.8)",
+          "oklch(37.9% 0.1136 154.8)",
+          "oklch(49.3% 0.1136 154.8)",
+          "oklch(60.7% 0.1136 154.8)",
+          "oklch(72.1% 0.1136 154.8)",
+          "oklch(83.6% 0.1136 154.8)",
+          "oklch(95.0% 0.1136 154.8)"
+        ]
+      },
+      "water": {
+        "role": "tertiary",
+        "displayName": "Water Blue",
+        "tonalRamp": [
+          "oklch(15.0% 0.0991 222.4)",
+          "oklch(26.4% 0.0991 222.4)",
+          "oklch(37.9% 0.0991 222.4)",
+          "oklch(49.3% 0.0991 222.4)",
+          "oklch(60.7% 0.0991 222.4)",
+          "oklch(72.1% 0.0991 222.4)",
+          "oklch(83.6% 0.0991 222.4)",
+          "oklch(95.0% 0.0991 222.4)"
+        ]
+      },
+      "fire": {
+        "role": "tertiary",
+        "displayName": "Fire Coral",
+        "tonalRamp": [
+          "oklch(15.0% 0.1266 38.2)",
+          "oklch(26.4% 0.1266 38.2)",
+          "oklch(37.9% 0.1266 38.2)",
+          "oklch(49.3% 0.1266 38.2)",
+          "oklch(60.7% 0.1266 38.2)",
+          "oklch(72.1% 0.1266 38.2)",
+          "oklch(83.6% 0.1266 38.2)",
+          "oklch(95.0% 0.1266 38.2)"
+        ]
+      },
+      "earth": {
+        "role": "tertiary",
+        "displayName": "Earth Gold",
+        "tonalRamp": [
+          "oklch(15.0% 0.0885 78.5)",
+          "oklch(26.4% 0.0885 78.5)",
+          "oklch(37.9% 0.0885 78.5)",
+          "oklch(49.3% 0.0885 78.5)",
+          "oklch(60.7% 0.0885 78.5)",
+          "oklch(72.1% 0.0885 78.5)",
+          "oklch(83.6% 0.0885 78.5)",
+          "oklch(95.0% 0.0885 78.5)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Pixel Display",
+        "purpose": "Landing hero; responsive sizes are documented in DESIGN.md."
+      },
+      "headline": {
+        "displayName": "Pixel Headline",
+        "purpose": "Landing section titles."
+      },
+      "title": {
+        "displayName": "Pixel Title",
+        "purpose": "Realm descriptions; pilot names use smaller overrides."
+      },
+      "body": {
+        "displayName": "Readable Body",
+        "purpose": "Explanatory and privacy prose."
+      },
+      "lead": {
+        "displayName": "Intro Lead",
+        "purpose": "The short opening gameplay invitation."
+      },
+      "label": {
+        "displayName": "Realm Label",
+        "purpose": "Five equal-width realm selectors."
+      }
+    },
+    "shadows": [
+      {
+        "name": "gameplay-image",
+        "value": "0 18px 50px #09071980",
+        "purpose": "Ambient separation under the portrait gameplay capture."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-background",
+        "value": "background .16s ease",
+        "purpose": "Primary button hover; disabled for reduced motion."
+      },
+      {
+        "name": "scroll",
+        "value": "smooth",
+        "purpose": "Native anchor scrolling; auto for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "narrow",
+        "value": "max-width: 360px"
+      },
+      {
+        "name": "phone",
+        "value": "max-width: 600px"
+      },
+      {
+        "name": "middle-reading",
+        "value": "min-width: 601px and max-width: 800px"
+      },
+      {
+        "name": "tablet",
+        "value": "max-width: 900px"
+      },
+      {
+        "name": "wide",
+        "value": "min-width: 1600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Download and store actions, with a visible keyboard focus state.",
+      "html": "<a class=\"ds-button\" href=\"#download\">Get Stairs Rush Reloaded <span aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:22px;min-height:54px;padding:14px 22px;background:var(--pink,#ff85cb);color:var(--bg,#100d25);font:600 19px/1.55 Barlow,system-ui,sans-serif;text-decoration:none;border-radius:8px;transition:background .16s ease}.ds-button span{font-size:23px;line-height:1}.ds-button:hover{background:#ffb2df;color:var(--bg,#100d25)}.ds-button:focus-visible{outline:3px solid var(--cyan,#79edf2);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Main navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Compact text navigation with pink download emphasis.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a href=\"#realms\">The game</a><a href=\"privacy.html\">Privacy</a><a class=\"ds-nav-download\" href=\"#download\">Download <span aria-hidden=\"true\">↓</span></a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:28px;font:500 16px/1.55 Barlow,system-ui,sans-serif;color:var(--ink,#fff0fc)}.ds-nav a{padding:10px 0;color:inherit;text-decoration:none}.ds-nav .ds-nav-download{color:var(--pink,#ff85cb)}.ds-nav a:hover{color:var(--cyan,#79edf2)}.ds-nav a:focus-visible{outline:3px solid var(--cyan,#79edf2);outline-offset:6px}"
+    },
+    {
+      "name": "Realm anchor",
+      "kind": "nav",
+      "refersTo": "realm-tab",
+      "description": "The native anchor fallback; JavaScript upgrades the set to accessible tabs.",
+      "html": "<a class=\"ds-realm-tab\" href=\"#wood\">Wood</a>",
+      "css": ".ds-realm-tab{display:block;padding:14px 8px;text-align:center;font-family:Pixelify,system-ui,sans-serif;font-size:24px;font-weight:500;color:var(--ink,#fff0fc);text-decoration:none;border-bottom:3px solid transparent}.ds-realm-tab:hover{background:#251d44;color:var(--cyan,#79edf2)}.ds-realm-tab:focus-visible{outline:3px solid var(--cyan,#79edf2);outline-offset:6px}"
+    },
+    {
+      "name": "Selected realm tab",
+      "kind": "nav",
+      "refersTo": "realm-tab-selected",
+      "description": "Cyan text and underline indicate the selected realm.",
+      "html": "<div role=\"tablist\" aria-label=\"Realm sample\"><a class=\"ds-selected-tab\" href=\"#metal\" role=\"tab\" aria-selected=\"true\">Metal</a></div>",
+      "css": ".ds-selected-tab{display:block;padding:14px 8px;text-align:center;font-family:Pixelify,system-ui,sans-serif;font-size:24px;font-weight:500;color:var(--cyan,#79edf2);text-decoration:none;border-bottom:3px solid var(--cyan,#79edf2)}.ds-selected-tab:hover{background:#251d44}.ds-selected-tab:focus-visible{outline:3px solid var(--cyan,#79edf2);outline-offset:6px}"
+    },
+    {
+      "name": "Policy summary",
+      "kind": "card",
+      "refersTo": "policy-summary",
+      "description": "A quiet tonal inset for the policy overview.",
+      "html": "<div class=\"ds-policy-summary\"><p>Your game progress is saved on your device. The Android build 47 is offline.</p></div>",
+      "css": ".ds-policy-summary{padding:24px;background:var(--surface,#1b1636);border-radius:8px;color:var(--ink,#fff0fc);font:500 19px/1.55 Barlow,system-ui,sans-serif}.ds-policy-summary p{margin:0;max-width:65ch}"
+    },
+    {
+      "name": "Support link",
+      "kind": "nav",
+      "refersTo": "support-link",
+      "description": "Open text-and-arrow rows with a divider.",
+      "html": "<a class=\"ds-support\" href=\"mailto:kevinmokex@gmail.com\">Email support <span aria-hidden=\"true\">↗</span></a>",
+      "css": ".ds-support{display:flex;justify-content:space-between;align-items:center;padding:16px 0;border-bottom:1px solid var(--rule,#4b3c64);font:500 19px/1.55 Barlow,system-ui,sans-serif;color:var(--ink,#fff0fc);text-decoration:none}.ds-support span{color:var(--pink,#ff85cb)}.ds-support:hover{color:var(--cyan,#79edf2)}.ds-support:focus-visible{outline:3px solid var(--cyan,#79edf2);outline-offset:6px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Deep",
+    "overview": "The Deep extends the existing underground game world into an artwork-led website. Midnight violet grounds pearl pixel headings, pink actions and cyan navigation accents; generous open sections let the campaign, real gameplay and pilot sprites carry the character.\n\nPixelify provides the game's voice while Barlow keeps explanatory and policy text comfortable to read. This scoped system belongs to the Stairs Rush Reloaded landing and privacy pages; it does not redefine the developer hub or other games.",
+    "keyCharacteristics": [
+      "Existing game artwork and real gameplay as the visual evidence.",
+      "Open, flat sections with restrained tonal layering.",
+      "Pixel display type paired with readable, locally hosted body type.",
+      "Keyboard-visible controls and responsive reading layouts."
+    ],
+    "rules": [],
+    "dos": [
+      "Do preserve the campaign image's full proportions and the gameplay screenshots' portrait framing.",
+      "Do use pink for primary actions, cyan for selected tabs and links, and the realm accents for their own mechanic copy.",
+      "Do keep the build-preview note readable beside the hero action and the store-availability explanation beside the store action.",
+      "Do preserve the keyboard tab pattern, skip link, no-JavaScript realm content and reduced-motion behavior.",
+      "Do use locally hosted fonts and existing game assets."
+    ],
+    "donts": [
+      "Don't add a decorative card grid around the open game sections.",
+      "Don't apply pixel fonts to long policy paragraphs or remove the readable body measure.",
+      "Don't imply that the showcased build 47 is already the version offered by the App Store.",
+      "Don't scale the pilot sprites with smoothing or crop away the gameplay controls."
+    ]
+  }
+}
