@@ -35,3 +35,13 @@ The five gameplay images were rendered from unmodified Android build 47 resource
 The policy distinguishes offline Android build 47 (no internet permission, no ads/billing, cloud backup disabled) from iOS AdMob, consent, StoreKit and Game Center behavior. It covers local saves, support email, third-party privacy controls, and GitHub Pages hosting. It does not promise that historical Android versions collected no data. Keep it synchronized with future app changes.
 
 Preview with `python3 -m http.server 4175`, then open `/stairrushreloaded/` and `/stairrushreloaded/privacy.html`. No build step is required. The root `app-ads.txt` is preserved.
+
+## Towerwick
+
+Support: https://mightyjuke.github.io/towerwick/
+
+Privacy: https://mightyjuke.github.io/towerwick/privacy.html
+
+These pages describe the offline Towerwick 1.0 release candidate, which is being prepared for release. Game source and signed packages remain in `mightyjuke/towerwick_game`; no build or private configuration is published here. The policy is based on the actual release configuration: local progress, no account, no active ads, analytics or in-app purchases. Website hosting and support email processing are described separately. Barlow reuses the existing locally hosted SIL-licensed font from Stairs Rush Reloaded.
+
+The pages work without JavaScript. Preview `/towerwick/` and `/towerwick/privacy.html` with the same static server as the other games. Update the policy when game services change.
